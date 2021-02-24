@@ -1,0 +1,13 @@
+
+public class CastTest {
+
+	public static void main(String[] args)
+	{
+		
+		float f = 9.87f;
+		double w = 'a' + 5;
+		w = f + 5;
+		
+		System.out.println(w);
+	}
+}

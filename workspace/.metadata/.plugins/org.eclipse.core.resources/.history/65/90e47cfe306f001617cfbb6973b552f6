@@ -1,0 +1,28 @@
+public class MountainBike extends Bicycle
+{
+	private int seatHeight;
+	
+	//overload methods or make constructors for seatHeight
+	public MountainBike()
+	{
+		super();
+		seatHeight = 0;
+	}
+	
+	public MountainBike(int startGear, int startSpeed, int startHeight)
+	{
+		super(startGear, startSpeed);
+		seatHeight = startHeight;
+	}
+	
+	//start making getters and setters
+	public int getSeatHeight()
+	{
+		return seatHeight;
+	}
+	
+	public void setSeatHeight(int sh)
+	{
+		seatHeight = sh;
+	}
+}

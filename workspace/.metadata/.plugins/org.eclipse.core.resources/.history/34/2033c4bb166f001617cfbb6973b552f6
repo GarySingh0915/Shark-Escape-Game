@@ -1,0 +1,11 @@
+
+public class CastTest {
+
+	public static void main(String[] args)
+	{
+		
+		char c = 24.0;
+
+		System.out.println(c);
+	}
+}

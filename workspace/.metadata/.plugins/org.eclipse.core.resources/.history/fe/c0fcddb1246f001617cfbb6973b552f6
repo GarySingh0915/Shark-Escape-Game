@@ -1,0 +1,11 @@
+
+public class CastTest2 {
+
+	public static void main(String[] args)
+	{
+		long i = -50;
+		int c = i;
+		
+		System.out.println(c);
+	}
+}

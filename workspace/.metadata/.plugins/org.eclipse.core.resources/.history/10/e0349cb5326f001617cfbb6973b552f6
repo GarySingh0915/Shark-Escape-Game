@@ -1,0 +1,11 @@
+public class MountainBikeTest {
+	public static void main(String args[])
+	{
+		MountainBike s = new MountainBike(2, 10, 3);
+		MountainBike m = new MountainBike();
+		Bicycle b = new Bicycle(2, 10);
+		
+		System.out.println(s.getSpeed());
+		System.out.println(b.getSpeed());
+	}
+}

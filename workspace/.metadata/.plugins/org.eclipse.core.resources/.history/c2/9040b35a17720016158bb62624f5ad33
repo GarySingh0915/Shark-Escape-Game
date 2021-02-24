@@ -1,0 +1,80 @@
+//Name - Sonal Chadha
+//Date - 09/01/16
+//Class - 2
+//Lab  - Variables
+//Received Help From: No One
+import javax.swing.JOptionPane;
+
+public class VariablesChadha
+{
+   public static void main ( String[] args )
+   {
+
+	byte byteOne = 127;
+	short shortOne = -32123;
+	int intOne = 90877;
+	long longOne = 999999999;
+	float floatOne = (float)38.5678;
+	double doubleOne = 923.234;
+	char charOne = 'A';
+	boolean booleanOne = true;
+	String stringOne = "hello world";
+
+	
+	JOptionPane.showMessageDialog(null,"/////////////////////////////////\n"+
+	"*Sonal Chadha           09/01/16*\n"+
+	"*  																			*\n"+
+	"*        integer types          *\n"+
+	"*                               *\n"+
+	"*8 bit - byteOne = \n"+byteOne+"\t\t*\n"+
+	"*16 bit - shortOne = \n"+shortOne+"\t*\n"+
+	"*32 bit - intOne = \n"+intOne+"\t*\n"+
+	"*64 bit - longOne = \n"+longOne+"\t*\n"+
+	"*                               *\n"+
+	"*         real types            *\n"+
+	"*                               *\n"+
+	"*32 bit - floatOne = \n"+floatOne+"\t*\n"+
+	"*64 bit - doubleOne = \n"+doubleOne+"\t*\n"+
+	"*                               *\n"+
+	"*      other integer types      *\n"+
+	"*                               *\n"+
+	"*16 bit - charOne = \n"+charOne+"\t\t*\n"+
+	"*                               *\n"+
+	"*         other types           *\n"+
+	"*                               *\n"+
+	"*booleanOne = \n"+booleanOne+"\t\t*\n"+
+	"*stringOne = \n"+stringOne+"\t*\n"+
+	"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
+	);
+   }
+}
+   
+
+/*	
+/////////////////////////////////
+*Sonal Chadha           09/01/16*
+*                               *
+*        integer types          *
+*                               *
+*8 bit - byteOne = 127		    *
+*16 bit - shortOne = -32123	    *
+*32 bit - intOne = 90877	    *
+*64 bit - longOne = 999999999	*
+*                               *
+*         real types            *
+*                               *
+*32 bit - floatOne = 38.5678	*
+*64 bit - doubleOne = 923.234	*
+*                               *
+*      other integer types      *
+*                               *
+*16 bit - charOne = A		    *
+*                               *
+*         other types           *
+*                               *
+*booleanOne = true		        *
+*stringOne = hello world	    *
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+*/
+   
+

@@ -1,0 +1,12 @@
+
+public class CastTest {
+
+	public static void main(String[] args)
+	{
+		
+		long u = 'A' - 48;
+		u = 982743L;
+		
+		System.out.println(u);
+	}
+}

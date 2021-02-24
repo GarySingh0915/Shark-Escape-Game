@@ -1,0 +1,11 @@
+
+public class CastTest2 {
+
+	public static void main(String[] args)
+	{
+		long i = 2147483648;
+		float r = i;
+		
+		System.out.println(r);
+	}
+}

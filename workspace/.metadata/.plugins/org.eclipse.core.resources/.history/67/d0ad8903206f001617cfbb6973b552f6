@@ -1,0 +1,72 @@
+
+public class CastTest {
+
+	public static void main(String[] args)
+	{
+		
+		int x = 128;		
+		System.out.println(x);	//1
+
+		x = -98;		      
+		System.out.println(x);	//2
+
+		byte b = 24;		
+		System.out.println(b);	//3
+
+		char c = 97; 	      
+		System.out.println(c);	//4
+
+		double d = 9.9;		
+		System.out.println(d);	//5    
+
+		d = 5.2;		      
+		System.out.println(d);	//6
+
+		float f = 9.87f;		
+		System.out.println(f);	//7
+
+		short s = 350;		
+		System.out.println(s);	//8
+
+		int z = 'A' + 5;		
+		System.out.println(z);	//9
+
+		c = 'A'+5;			
+		System.out.println(c);	//10
+
+		double w = 'a'+5;		
+		System.out.println(w);	//11
+
+		long u = 'A'-48;		
+		System.out.println(u);	//12
+
+		w = f+5;			
+		System.out.println(w);	//13
+
+		b = (byte)x;	
+		System.out.println(b);	//14
+
+		w = 'A' * 2.0;	
+		System.out.println(w);	//15
+
+//		f=w;			
+//		System.out.println(f);	//16
+
+		u=982743L;		
+		System.out.println(u);	//17
+
+		d = 3.2e2;		
+		System.out.println(d);	//18
+
+//		s=c;			
+//		System.out.println(s);	//19
+//
+//		z = w;		
+//		System.out.println(z);	//20
+
+
+		
+		
+		
+	}
+}

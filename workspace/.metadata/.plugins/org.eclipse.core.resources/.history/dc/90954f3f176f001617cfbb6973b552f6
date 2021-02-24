@@ -1,0 +1,11 @@
+
+public class CastTest {
+
+	public static void main(String[] args)
+	{
+		
+		short s = 'c';
+
+		System.out.println(s);
+	}
+}

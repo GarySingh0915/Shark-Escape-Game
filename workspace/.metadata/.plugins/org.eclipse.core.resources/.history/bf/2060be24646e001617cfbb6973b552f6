@@ -1,0 +1,8 @@
+public class MountainBikeTest {
+	public static void main(String args[])
+	{
+		MountainBike s = new MountainBike(2, 3, 4);
+		
+		System.out.println(getSeatHeight());
+	}
+}
